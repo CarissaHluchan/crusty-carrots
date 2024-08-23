@@ -10,7 +10,7 @@ function Movie({
   function setMovie({ title, id }) {
     console.log("displaying " + title)
     let toggler = document.querySelector(`.${'movie' + id}`);
-    if (toggler.getAttribute('isshowing') === "true") {
+    if (is_showing) {
       toggler.setAttribute('isshowing', "false")
       is_showing = false;
     }
