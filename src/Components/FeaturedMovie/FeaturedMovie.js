@@ -122,7 +122,7 @@ FeaturedMovie.propTypes = {
     tagline: PropTypes.string,
     overview: PropTypes.string,
   }),
-  handleClick: PropTypes.func.isRequired,
+  // handleClick: PropTypes.func.isRequired,
 };
 
 

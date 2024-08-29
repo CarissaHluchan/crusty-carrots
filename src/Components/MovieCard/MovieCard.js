@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
 
 function MovieCard({
-  title, id, poster_path, average_rating, handleClick }) {
+  title, id, poster_path, average_rating }) {
 
   return (
     <Link to={`/movies/${id}`}>
@@ -27,7 +27,7 @@ MovieCard.propTypes = {
   id: PropTypes.number.isRequired,
   poster_path: PropTypes.string.isRequired,
   average_rating: PropTypes.number.isRequired,
-  handleClick: PropTypes.func.isRequired,
+  // handleClick: PropTypes.func.isRequired,
 };
 
 export default MovieCard;
