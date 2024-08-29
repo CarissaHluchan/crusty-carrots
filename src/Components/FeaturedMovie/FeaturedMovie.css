@@ -102,8 +102,9 @@
   /* border: 2px solid cyan; */
 }
 
-@media screen and (min-width: 1012px) {
+@media screen and (max-width: 1012px)and (min-width:400px) {
   .featured-movie-all-details {
+    flex-direction: column;
     flex-wrap: wrap;
   }
 }
