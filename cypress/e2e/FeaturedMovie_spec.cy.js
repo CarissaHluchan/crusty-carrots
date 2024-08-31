@@ -10,7 +10,7 @@ describe('FeaturedMovie component', () => {
       fixture: 'videos'
     }).as('getVideos')
     
-    cy.visit('http://localhost:3000/movies/436270');
+    cy.visit('http://localhost:3000/#/movies/436270');
 
   });
 
@@ -33,7 +33,7 @@ describe('FeaturedMovie component', () => {
 
   it('Should navigate back to MoviesList when "See all Movies" is clicked', () => {
     cy.get('.featured-movie-button').click();
-    cy.url().should('eq', 'http://localhost:3000/');
+    cy.url().should('eq', 'http://localhost:3000/#/');
   });
 });
 

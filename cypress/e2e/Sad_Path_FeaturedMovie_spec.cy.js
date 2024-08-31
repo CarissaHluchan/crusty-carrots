@@ -8,7 +8,7 @@ describe('Sad_Path_FeaturedMovie_spec', () => {
       statusCode: 404
     }).as('getErrorMovieVids');
     
-    cy.visit('http://localhost:3000/movies/436289');
+    cy.visit('http://localhost:3000/#/movies/436289');
   })
 
   it('Should return a 404 if it cannot find the movie', () => {
