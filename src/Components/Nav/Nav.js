@@ -1,12 +1,14 @@
 import './Nav.css';
 import SearchTitle from '../SearchTitle/SearchTitle.js';
 import FilterByRating from '../FilterByRating/FilterByRating.js';
+import {ReactComponent as Logo} from '../../assets/orange-carrot-2.svg'
 
 function Nav({ setFilteredMovies, moviesList, filteredMovies }) {
   return (
     <header>
       <div className='logo-container'>
-        <img className='carrot-logo' src='/orange-carrot-2.svg' alt="crusty carrots logo" />
+        <Logo className='carrot-logo' />
+        {/* <img className='carrot-logo' src='/orange-carrot-2.svg' alt="crusty carrots logo" /> */}
         <h1 className="full-site-title">
           <div className="site-title">Crusty</div>
           <div className="site-title">Carrots</div>
