@@ -40,5 +40,10 @@
   },
   "devDependencies": {
     "cypress": "^13.13.3"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarissaHluchan/crusty-carrots.git"
+  },
+  "homepage": "https://CarissaHluchan.github.io/crusty-carrots"
 }
