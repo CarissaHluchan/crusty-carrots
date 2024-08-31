@@ -19,8 +19,8 @@ function MoviesList({ moviesList }) {
         })
       }</div>
     </div>
-  )
-};
+  );
+}
 
 MoviesList.propTypes = {
   moviesList: PropTypes.arrayOf(
@@ -31,6 +31,6 @@ MoviesList.propTypes = {
       average_rating: PropTypes.number.isRequired,
     })
   ).isRequired,
-};
+}
 
 export default MoviesList;

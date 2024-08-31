@@ -16,13 +16,14 @@ function MovieCard({
         </div>
       </div>
     </Link>
-  )
-};
+  );
+}
+
 MovieCard.propTypes = {
   title: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
   poster_path: PropTypes.string.isRequired,
   average_rating: PropTypes.number.isRequired,
-};
+}
 
 export default MovieCard;

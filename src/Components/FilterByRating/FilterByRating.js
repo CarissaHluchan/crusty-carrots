@@ -5,14 +5,12 @@ function FilterByRating({ setFilteredMovies, moviesList }) {
 
   const [ratings, setRatings] = useState([]);
   const [selectedRating, setSelectedRating] = useState('');
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     const ratings = moviesList.map(movie => movie.average_rating); // this maps to a new array of ratings including duplicates
     const uniqueRatings = ratings.filter((rating, index, allRatings) => allRatings.indexOf(rating) === index); // this removes the duplicates
     uniqueRatings.sort((a, b) => b - a)
     setRatings(uniqueRatings);
-
   }, [moviesList]);
 
   function filterMoviesByRating(rating, movies) {
@@ -39,7 +37,7 @@ function FilterByRating({ setFilteredMovies, moviesList }) {
       ))}
     </select>
   );
-};
+}
 
 export default FilterByRating;
 

@@ -20,7 +20,7 @@ function FeaturedMovie() {
 
   if (!movie) return (
     <h2>Loading Movie...</h2>
-  )
+  );
 
   function getMovie(movieID) {
     fetch(`https://rancid-tomatillos.herokuapp.com/api/v2/movies/${movieID}`)
@@ -126,8 +126,8 @@ function FeaturedMovie() {
         </div>
       </div>
     </section>
-  )
-};
+  );
+}
 
 FeaturedMovie.propTypes = {
   movie: PropTypes.shape({
@@ -141,7 +141,7 @@ FeaturedMovie.propTypes = {
     runtime: PropTypes.number,
     tagline: PropTypes.string,
     overview: PropTypes.string,
-  }),
-};
+  })
+}
 
 export default FeaturedMovie
