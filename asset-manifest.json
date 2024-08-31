@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/crusty-carrots/static/css/main.2acb7925.css",
+    "main.js": "/crusty-carrots/static/js/main.302865c6.js",
+    "static/js/453.977b7a7b.chunk.js": "/crusty-carrots/static/js/453.977b7a7b.chunk.js",
+    "static/media/pxfuel.jpg": "/crusty-carrots/static/media/pxfuel.ff83a180ffda88655472.jpg",
+    "static/media/yellow-carrot.png": "/crusty-carrots/static/media/yellow-carrot.20eecc7685f001d0ab2b.png",
+    "static/media/white-carrot.png": "/crusty-carrots/static/media/white-carrot.eccbdaa8e992ca0f4bb1.png",
+    "index.html": "/crusty-carrots/index.html",
+    "main.2acb7925.css.map": "/crusty-carrots/static/css/main.2acb7925.css.map",
+    "main.302865c6.js.map": "/crusty-carrots/static/js/main.302865c6.js.map",
+    "453.977b7a7b.chunk.js.map": "/crusty-carrots/static/js/453.977b7a7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2acb7925.css",
+    "static/js/main.302865c6.js"
+  ]
+}
