@@ -25,7 +25,7 @@ function Nav({ setFilteredMovies, moviesList, filteredMovies }) {
         />
       </div>
     </header >
-  )
+  );
 }
 
 export default Nav;

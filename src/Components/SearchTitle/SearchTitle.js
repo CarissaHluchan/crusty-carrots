@@ -10,21 +10,25 @@ function SearchTitle({ setFilteredMovies, moviesList }) {
     setFilteredMovies(newList)
     if (newList.length === 0) {
       alert("No results matching your search, please try again!")
-    }
+    };
   };
 
   function filterMoviesByTitle(title, movies) {
     return movies.filter(movie => movie.title.toLowerCase().includes(title.toLowerCase()))
   };
 
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
+  function clearForm() {
     setFilteredMovies(moviesList);
     setUserSearchInput('');
+  }
+
+  const handleSearchReset = (e) => {
+    e.preventDefault();
+    return
   };
 
   return (
-    <form onSubmit={handleSearchSubmit}>
+    <form onSubmit={handleSearchReset}>
       <input
         type="text"
         placeholder="Search by Title"
@@ -32,9 +36,9 @@ function SearchTitle({ setFilteredMovies, moviesList }) {
         value={userSearchInput}
         onChange={handleSearchInput}
       />
-      <button type="submit" className="nav-search-button">Reset</button>
+      <button type="reset" className="nav-search-button" onClick={clearForm}>Reset</button>
     </form>
-  )
-};
+  );
+}
 
 export default SearchTitle;

@@ -7,15 +7,11 @@ import ErrorPage from '../ErrorPage/ErrorPage';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 
 function App() {
-  // <-----> ** HOOKS ** <-----> //
+ 
   const [moviesList, setMoviesList] = useState([]);
-  const [filteredMovies, setFilteredMovies] = useState([])
-  // const [error, setError] = useState(null); // Changed from string to null
-  const [noMovieResults, setNoMovieResults] = useState(false);
+  const [filteredMovies, setFilteredMovies] = useState([]);
   const navigate = useNavigate();
 
-
-  // <-----> ** NETWORK REQUESTS ** <-----> //
   function getMoviesList() {
     fetch('https://rancid-tomatillos.herokuapp.com/api/v2/movies/')
       .then(res => {
@@ -51,7 +47,7 @@ function App() {
       </Routes>
     </div>
   );
-};
+}
 
 export default App;
 

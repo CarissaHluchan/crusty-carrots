@@ -17,7 +17,7 @@ describe('MoviesList component', () => {
       fixture: 'videos'
     }).as('getVideos')
 
-    cy.visit('http://localhost:3000');
+    cy.visit('http://localhost:3000/#');
   });
 
   it('Should display all parts of the movie card', () => {
@@ -29,7 +29,7 @@ describe('MoviesList component', () => {
   });
 
   it('Should accept a click on a movie card and take you to a featured movie', () => {
-    cy.get('[href="/movies/436270"] > .movie-card').click()
+    cy.get('[href="#/movies/436270"] > .movie-card').click()
     cy.get('h2').contains('Black Adam')
   })
 });
