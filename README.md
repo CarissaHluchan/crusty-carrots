@@ -1,4 +1,4 @@
-# 🥕 Crusty Carrots 🥕
+# [🥕 Crusty Carrots 🥕] ()
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
@@ -20,7 +20,7 @@ This project was created to help us learn and challenge ourselves through the us
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-This group project took 2 Turing students roughly 10 days or 30 hours to complete. We were in our 13th week of intensive front-end web development training.
+This group project took 3 Turing students roughly 10 days or 30 hours to complete. We were in our 13th week of intensive front-end web development training.
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
