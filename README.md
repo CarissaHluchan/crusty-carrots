@@ -3,9 +3,22 @@
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 This project was created to help us learn and challenge ourselves through the use of React, Router, and Cypress, learning how to make use of each of the various advantages those programs provide. We worked on it for a little under two weeks, as part of our Mod 3 section, and we're quite happy with the results!
 
+### Technology:
+1. JavaScript
+2. CSS
+3. React
+4. React Router
+5. Cypress
+
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
-- Click the title to run the app, or:
+1. Click the title to run the app.
+2. Install Cypress
+[Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
+3. 
+ > [!WARNING]
+> **[Node.js](https://nodejs.org/en) & [npm](https://www.npmjs.com/) are required to run this app.**<br>
+> _Please ensure you have both installed on your machine before proceeding._
 - _(optional) Fork this project to your own Github account._
 - Clone the repository to your local machine.
 - `cd` into the project folder.
