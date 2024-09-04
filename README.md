@@ -4,11 +4,10 @@
 This project was created to help us learn and challenge ourselves through the use of React, Router, and Cypress, learning how to make use of each of the various advantages those programs provide. We worked on it for a little under two weeks, as part of our Mod 3 section, and we're quite happy with the results!
 
 ### Technology:
-1. JavaScript
-2. CSS
-3. React
-4. React Router
-5. Cypress
+1. CSS
+2. React
+3. React Router
+4. Cypress
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
