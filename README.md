@@ -14,8 +14,7 @@ This project was created to help us learn and challenge ourselves through the us
 1. Click the title to run the app.
 2. Install Cypress
 [Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
-3. 
- > [!WARNING]
+3. > [!WARNING]
 > **[Node.js](https://nodejs.org/en) & [npm](https://www.npmjs.com/) are required to run this app.**<br>
 > _Please ensure you have both installed on your machine before proceeding._
 - _(optional) Fork this project to your own Github account._
