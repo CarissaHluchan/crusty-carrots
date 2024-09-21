@@ -8,8 +8,13 @@ This project was created to help us learn and challenge ourselves through the us
 ### Technology:
 1. CSS
 2. React
-3. React Router
+3. Router
 4. Cypress
+
+### Design:
+[Design Board](https://miro.com/app/board/uXjVKnGMODA=/)
+
+<img width="762" alt="Screenshot 2024-09-20 at 6 16 36 PM" src="https://github.com/user-attachments/assets/d19a8b55-a761-4c58-a035-bc141bbd990a">
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
