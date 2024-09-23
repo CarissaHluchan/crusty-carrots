@@ -18,8 +18,9 @@ This project was created to help us learn and challenge ourselves through the us
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
-1. Click the title to run the app.
-2. _(optional) Fork this project to your own Github account._
+**1. Click the title to run the app.**
+
+**2. _(optional) Fork this project to your own Github account._**
 > [!WARNING]
 > **[Node.js](https://nodejs.org/en) & [npm](https://www.npmjs.com/) are required to run this app.**<br>
 > _Please ensure you have both installed on your machine before proceeding._
@@ -28,7 +29,8 @@ This project was created to help us learn and challenge ourselves through the us
 - Use the `npm install` command to install the project dependencies.
 - Use the `npm start` command to run webpack.
 - Check the console for the `PORT` and copy/paste `localhost:PORT` into your web browser.
-3. To run Cypress testing
+
+**3. To run Cypress testing:**
 - in the console type `npm run cypress`
 - for issues: [Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
 
