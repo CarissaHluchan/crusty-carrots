@@ -11,11 +11,6 @@ This project was created to help us learn and challenge ourselves through the us
 3. Router
 4. Cypress
 
-### Design:
-[Design Board](https://miro.com/app/board/uXjVKnGMODA=/)
-
-<img width="762" alt="Screenshot 2024-09-20 at 6 16 36 PM" src="https://github.com/user-attachments/assets/d19a8b55-a761-4c58-a035-bc141bbd990a">
-
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 **1. Click the title to run the app.**
@@ -33,6 +28,11 @@ This project was created to help us learn and challenge ourselves through the us
 **3. To run Cypress testing:**
 - in the console type `npm run cypress`
 - for issues: [Follow these instructions to install Cypress.](https://on.cypress.io/guides/installing-and-running#section-installing)
+
+### Design:
+[Design Board](https://miro.com/app/board/uXjVKnGMODA=/)
+
+<img width="762" alt="Screenshot 2024-09-20 at 6 16 36 PM" src="https://github.com/user-attachments/assets/d19a8b55-a761-4c58-a035-bc141bbd990a">
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
